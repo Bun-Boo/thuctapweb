@@ -1,0 +1,29 @@
+img{
+    width: 300px;
+}
+
+table ,th,td,tr {
+    border: 1px solid black;
+    width: 80vh;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+thead{
+    background-color: red;
+    color: white;
+}
+tbody>tr:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+tfoot{
+    background-color: blue;
+    color: white;
+    
+}
+
