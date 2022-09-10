@@ -1,6 +1,4 @@
-img{
-    width: 300px;
-}
+/* 
 
 table ,th,td,tr {
     border: 1px solid black;
@@ -25,5 +23,46 @@ tfoot{
     background-color: blue;
     color: white;
     
+} */
+
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: 800;
+    font-size: 26px;
+}
+span{
+    font-size: 26px;
 }
 
+.title p{
+    color: red;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+    line-height: 25px;
+}
+p::selection{
+    background-color: #ccc;
+}
+.blue{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ccc;
+    
+}
+.yellow{
+    color: rgb(212, 212, 16);
+    text-decoration: underline;
+    font-size: 20px;
+}
+.green{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}

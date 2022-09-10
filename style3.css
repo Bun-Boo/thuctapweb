@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    
+    width: 800px;
+    height: fit-content;
+    border: solid 1px #000;
+    
+}
+
+.title{
+    height:40px;
+    background-color: blue;
+    line-height: 40px;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+
+.info{
+    color: blue;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.line{
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.gototop{
+    text-align: right;
+    padding: 10px;
+}
+a{
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px;
+    float: left;
+}
+
+.text{
+    padding: 10px;
+}
