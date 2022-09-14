@@ -1,4 +1,4 @@
-/* 
+
 
 table ,th,td,tr {
     border: 1px solid black;
@@ -23,7 +23,7 @@ tfoot{
     background-color: blue;
     color: white;
     
-} */
+}
 
 a{
     text-decoration: none;
